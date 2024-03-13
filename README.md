@@ -10,11 +10,11 @@ Compute relevant statistics on bikeshare data from Chicago, New York City and Wa
 
 ### Installing
 
-* Download all revelant files:
-    - bikeshare.py
-    - chicago.csv
-    - washington.csv
-    - new_york_city.csv
+* Download all relevant files:
+    - `bikeshare.py`
+    - `chicago.csv`
+    - `washington.csv`
+    - `new_york_city.csv`
 
 ### Executing program
 
