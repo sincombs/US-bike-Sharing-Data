@@ -1,22 +1,20 @@
-# Project Title
+# Bikeshare Data Stats
 
-Simple overview of use/purpose.
+Perform key statistics of available bikeshare data.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Compute relevant statistics on bikeshare data from Chicago, New York City and Washington DC including most frequent times of travel, most popular stations and trip, trip duration,  and user stats.
 
 ## Getting Started
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Download all revelant files:
+    - bikeshare.py
+    - chicago.csv
+    - washington.csv
+    - new_york_city.csv
 
 ### Executing program
 
@@ -37,6 +35,55 @@ $ Input month (all, january, february, ... , june):
 ````
 $ Input month (all, january, february, ... , june):
 ````
+5. After displaying output, there will be a prompt asking if you would like to continue.
+
+### Program Output 
+Template output in terminal:
+```
+Calculating The Most Frequent Times of Travel...
+
+Most common month: 
+Most common day of week: 
+Most common start hour: 
+
+This took ______ seconds.
+----------------------------------------
+
+Calculating The Most Popular Stations and Trip...
+
+Most commonly used start station: 
+Most commonly used end station: 
+Most common combination of start and end station trip: 
+
+This took ______ seconds.
+----------------------------------------
+
+Calculating Trip Duration...
+
+Total travel time: 
+Average travel time: 
+
+This took ______ seconds.
+----------------------------------------
+
+Calculating User Stats...
+
+User type counts:
+ User Type
+Subscriber    
+Customer       
+Name: count, dtype: int64
+
+Gender counts:
+ Gender
+Male      
+Female    
+Name: count, dtype: int64
+
+Earliest, most recent, and most common birth year:   ,   , 
+----------------------------------------
+```
+If a data column doesn't exist no output stats will be available.
 ## Authors
 
 Stephanie Sincomb  
