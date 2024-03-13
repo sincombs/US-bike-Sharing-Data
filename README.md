@@ -83,7 +83,7 @@ Name: count, dtype: int64
 Earliest, most recent, and most common birth year:   ,   , 
 ----------------------------------------
 ```
-If a data column doesn't exist no output stats will be available.
+If a data column doesn't exist **no output** stats will be available.
 ## Authors
 
 Stephanie Sincomb  
@@ -98,4 +98,4 @@ Stephanie Sincomb
 This project is licensed under the License
 
 ## Acknowledgments
-I would like to thank Udacity
+I would like to thank Udacity.
