@@ -20,43 +20,35 @@ An in-depth paragraph about your project and overview of use.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+1.  Start python script
 ```
-code blocks for commands
+python bikeshare.py
 ```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
+2. The following will be displayed the the terminal and you will be asked to supply a city:
+````
+$ Hello! Let's explore some US bikeshare data!
+$ Input city choice (chicago, new york city, or washington):
+```` 
+3. After supplying a city, a month (or all months) will be asked for:
+````
+$ Input month (all, january, february, ... , june):
+````
+4. After supplying month(s), a day of the week (or all) will be required:
+````
+$ Input month (all, january, february, ... , june):
+````
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Stephanie Sincomb  
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the License
 
 ## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+I would like to thank Udacity
