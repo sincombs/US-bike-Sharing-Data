@@ -19,6 +19,7 @@ def user_check(user_input, accepted_input):
         user_input = input('Please input correct listed choice: ').lower()
         
     return user_input
+##########################33
 
 def get_filters():
     """
@@ -48,7 +49,7 @@ def get_filters():
     
     print('-'*40)
     return city, month, day
-
+#################################
 
 def load_data(city, month, day):
     """
@@ -84,7 +85,7 @@ def load_data(city, month, day):
         df= df[df.day_of_week == day.title()]
 
     return df
-
+#####################
 
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
@@ -103,7 +104,7 @@ def time_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
+#################
 
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
@@ -123,7 +124,7 @@ def station_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
+#####################
 
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
@@ -139,7 +140,7 @@ def trip_duration_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
+####################
 
 def user_stats(df):
     """Displays statistics on bikeshare users."""
@@ -166,7 +167,7 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
+####################
 
 def main(): # continues to loop through stats if user supplies input
     while True:
@@ -181,7 +182,7 @@ def main(): # continues to loop through stats if user supplies input
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
+#####################
 
 if __name__ == "__main__":
 	main()
